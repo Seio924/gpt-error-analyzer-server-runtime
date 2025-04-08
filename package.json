@@ -1,0 +1,19 @@
+{
+  "name": "gpt-error-analyzer-server-runtime",
+  "version": "1.0.0",
+  "description": "빌드된 GPT 분석 서버 - 실행 전용 패키지",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "openai": "^4.91.1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "author": "Seio924"
+}
